@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>The API Endpoints</h1>
+    <h2>Customer level API calls</h2>
+    <div>
+        <ul>
+            <li><a href="/token/login/">login</a></li>
+            <li><a href="/api/users/users/me/">Display only the current user</a></li>
+            <li><a href="/token/login/">Generates access tokens that can be used in other API calls in this project</a></li>
+            <li><a href="/api/menu-items">Lists all menu items.</a></li>
+            <li><a href="/api/menu-items/{menuItem}">Lists single menu item</a></li>
+        </ul>
+    </div>
+    <div>
+        <h2>Manager level API calls</h2>
+        <ul>
+            <li><a href="/api/menu-items">Perform CRUD on all menu items</a></li>
+            <li><a href="/api/menu-items/{menuItem}">Perform CRUD on a single menu item</a></li>
+            <li><a href="/api/groups/manager/users">Manager group management endpoint</a></li>
+            <li><a href="/api/groups/delivery-crew/users">Delivery Team group management endpoint</a></li>
+            <li><a href="/api/orders">Returns all orders with order items by all users</a></li>
+        </ul>
+    </div>
+    <div>
+        <h2>Cart Management Endpoints</h2>
+        <ul>
+            <li><a href="/api/cart/menu-items">Returns current items in the cart for the current user </a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+
+    </div>
+    <div>
+        <h2>Order Management Endpoint</h2>
+        <ul>
+            <li><a href="/api/orders">Returns all order items created by this user</a></li>
+            <li><a href="/api/orders/{orderId}">Returns all items for this order id</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div>
+        <h2>Delivery Team API Call</h2>
+        <ul>
+            <li><a href="/api/orders">Returns all orders with order items assigned to the delivery crew</a></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+     </div>
+</body>
+</html>
